@@ -1,5 +1,10 @@
 n = int(input())
 
-students = {1: "John", 2: "Tom", 3: "Paul"}
-
-print(students.get(n, "Vacancy"))
+if n == 1:
+    print("John")
+elif n == 2:
+    print("Tom")
+elif n == 3:
+    print("Paul")
+else:
+    print("Vacancy")
